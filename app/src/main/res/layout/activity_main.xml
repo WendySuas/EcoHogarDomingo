@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo1"
+    android:gravity="center"
+    tools:context="grupo11.ecohogar.MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="15dp">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="¡Intentemos
+         cambiar el mundo!"
+                    android:textSize="40dp"
+                    android:gravity="center"
+                    android:textColor="#ffff"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+                <EditText
+                    android:id="@+id/edtUsuario"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:ems="15"
+                    android:hint="Ingrese usuario"
+                    android:textColorHint="#ffff"
+                    android:textColor="#ffff"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <EditText
+                    android:id="@+id/edtContrasenia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:ems="15"
+                    android:hint="Ingrese contraseña"
+                    android:inputType="textPassword"
+                    android:textColor="#ffff"
+                    android:textColorHint="#ffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+                <Button
+                    android:id="@+id/btnIngresar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ingresar"
+                    android:textColor="#ffff"
+                    android:background="@drawable/redodo"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/txtIrapaginaweb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ir a pagina Web"
+                android:layout_marginTop="80dp"
+                android:textColor="#ffff"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+</ScrollView>
+</LinearLayout>

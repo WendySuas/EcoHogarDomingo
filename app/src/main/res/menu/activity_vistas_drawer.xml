@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/itemdatosdeUsuario"
+            android:icon="@drawable/iconodatosusuario"
+            android:title="Datos del Usuario" />
+        <item
+            android:id="@+id/itemVincularbluetooth"
+            android:icon="@drawable/icononotificacion"
+            android:title="Vincular Bluetooth" />
+        <item
+            android:id="@+id/itemHistorialdeuso"
+            android:icon="@drawable/iconohistorial"
+            android:title="Localizacion" />
+
+    </group>
+
+    <item android:title=" ">
+        <menu>
+            <item
+                android:id="@+id/itemCondicionesypoliticas"
+                android:icon="@drawable/iconocondicion"
+                android:title="Condiciones y Politicas" />
+            <item
+                android:id="@+id/itemReportarproblema"
+                android:icon="@drawable/iconoreportar"
+                android:title="Reportar Problema" />
+            <item
+                android:id="@+id/itemCerrarsesion"
+                android:icon="@drawable/iconosalir"
+                android:title="Cerra Sesion" />
+        </menu>
+    </item>
+
+</menu>
